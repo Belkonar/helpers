@@ -135,6 +135,8 @@ public class ExecutorResponse
 
         return builder.ToString();
     }
+
+    public bool Success => ResponseCode == 0;
 }
 
 public class ExecutorConfig
